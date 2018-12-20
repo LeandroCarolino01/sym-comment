@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title  %}Thoughtorama{% endblock %}
+
+{% block body %}
+   <h1>{{ comment.title }}</h1>
+    <p>{{ comment.body }}</p>
+    <hr>
+    <a href="/">Go Back</a>
+{% endblock %}
